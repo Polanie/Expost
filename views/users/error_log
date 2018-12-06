@@ -1,0 +1,12 @@
+[27-Nov-2018 20:16:32 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/expostempolanik/public_html/core/db.php on line 40
+[27-Nov-2018 20:17:57 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/expostempolanik/public_html/core/db.php on line 40
+[27-Nov-2018 20:20:41 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/expostempolanik/public_html/core/db.php on line 40
+[27-Nov-2018 21:34:05 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/expostempolanik/public_html/views/users/add.php on line 31
+[28-Nov-2018 21:10:57 UTC] PHP Warning:  require_once(/home/expostempolanik/public_html/core/util.php): failed to open stream: No such file or directory in /home/expostempolanik/public_html/core/includes.php on line 5
+[28-Nov-2018 21:10:57 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/expostempolanik/public_html/core/util.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/expostempolanik/public_html/core/includes.php on line 5
+[28-Nov-2018 22:25:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/expostempolanik/public_html/elements/nav.php on line 32
+[28-Nov-2018 22:44:41 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/expostempolanik/public_html/views/users/index.php on line 125
+[29-Nov-2018 17:58:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::edit() in /home/expostempolanik/public_html/views/users/edit.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/expostempolanik/public_html/views/users/edit.php on line 7

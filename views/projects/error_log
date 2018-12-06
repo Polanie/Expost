@@ -1,0 +1,26 @@
+[29-Nov-2018 18:18:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Project' not found in /home/expostempolanik/public_html/views/projects/index.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/expostempolanik/public_html/views/projects/index.php on line 36
+[30-Nov-2018 17:39:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/expostempolanik/public_html/models/project.php on line 118
+[30-Nov-2018 17:59:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Project::delete() in /home/expostempolanik/public_html/views/projects/delete.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/expostempolanik/public_html/views/projects/delete.php on line 4
+[30-Nov-2018 18:56:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Project::delete() in /home/expostempolanik/public_html/views/projects/delete.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/expostempolanik/public_html/views/projects/delete.php on line 4
+[30-Nov-2018 18:57:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Project::delete() in /home/expostempolanik/public_html/views/projects/delete.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/expostempolanik/public_html/views/projects/delete.php on line 4
+[30-Nov-2018 19:03:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Project::delete() in /home/expostempolanik/public_html/views/projects/delete.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/expostempolanik/public_html/views/projects/delete.php on line 4
+[30-Nov-2018 19:27:24 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) in /home/expostempolanik/public_html/models/project.php on line 8
+[04-Dec-2018 18:16:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/expostempolanik/public_html/core/util.php:48) in /home/expostempolanik/public_html/views/projects/add.php on line 13
+[04-Dec-2018 18:17:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/expostempolanik/public_html/core/util.php:48) in /home/expostempolanik/public_html/views/projects/add.php on line 13
+[04-Dec-2018 18:43:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/expostempolanik/public_html/core/util.php:48) in /home/expostempolanik/public_html/views/projects/add.php on line 13
+[05-Dec-2018 20:33:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/expostempolanik/public_html/views/projects/index.php on line 19

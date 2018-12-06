@@ -1,0 +1,343 @@
+
+
+/* Home Page */
+
+.button {
+      background-color: #000000; /* Black */
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin-left: -70px;
+      width: 200px;
+    }
+
+#home-page {
+    display: block;
+    position: relative;
+}
+
+#home-page::after {
+    content: "";
+    background-image: url("/assets/images/pexels-photo-102127.jpg");
+    opacity: 0.5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    height: 750px;
+}
+
+
+#inside-home-page {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-image: url("/assets/images/pexels-photo-102127.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+}
+
+#black-view {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+#black-view  h1{
+    padding-left: 300px;
+}
+
+#inside-home-page h1 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 100%;
+}
+
+#black-view h2 {
+    color: white;
+    font-size: 18px;
+    padding-left: 50px;
+    padding-top: 20px;
+    max-width: 100%;
+}
+
+#home-lower-nav {
+    padding-left: 150px;
+    color: white;
+}
+
+#image-logo {
+
+    float: right;
+    max-width: 100%;
+
+}
+
+/* Sign-in Page */
+
+#signin-page {
+    display: block;
+    position: relative;
+}
+
+#signin-page::after {
+    content: "";
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("/assets/images/pexels-photo-673648.jpg");
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    height: 750px;
+}
+
+#inside-signin-page {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("/assets/images/pexels-photo-673648.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#black-signin {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#black-signin h2 {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+
+#black-signin h4 {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.btn material-btn {
+    color: white;
+}
+
+.material-nav-link {
+
+    color: #ffffff;
+    text-decoration: none;
+    }
+
+.material-type {
+    color: white;
+}
+
+/* Sign-up Page */
+
+.btn {
+    text-align: center center;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 100px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    left: 50%;
+    margin-left: -120px;
+}
+
+.material-form-group {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.material-form-group label {
+    color: #ffffff;
+}
+
+.material-form-group .form-control {
+       background-color: Transparent;
+       background-repeat: no-repeat;
+       border: none;
+       border-bottom: 3px solid #ffffff;
+
+
+}
+
+
+
+#signup-page {
+    display: block;
+    position: relative;
+}
+
+#signup-page::after {
+    content: "";
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("/assets/images/pexels-photo-1000366.jpg");
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    height: 750px;
+}
+#inside-signup-page {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("/assets/images/pexels-photo-1000366.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#black-signup-page {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#black-signup-page h2 {
+    text-align: center;
+    color: white;
+
+}
+
+
+
+
+
+
+/* Edit-php */
+
+.material-btn {
+    text-align: left;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 100px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    left: 50%;
+    margin-left: -120px;
+}
+
+#edit-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#edit-white {
+    padding-left: 100px;
+    padding-top: 50px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+}
+
+#update-info h4{
+    padding-top: 5px;
+    font-size: 14px;
+
+}
+
+.material-edit-form-group {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    border-bottom: 2px solid #000000;
+
+}
+
+
+/* Projects page */
+
+#project-back {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#img-preview {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.list-group-item {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.material-project-form-group {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    border-bottom: 3px solid #ffffff;
+    padding-top: 50px;
+
+}
+
+.material-project-btn {
+    text-align: center center;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
+}
+
+@media(1000px){
+    .col-half, .col-quarter, .col-third{
+        width: 100%;
+    }
+}
