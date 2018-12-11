@@ -5,14 +5,19 @@
     require_once("../../elements/nav.php");
 
 ?>
+
     <div id="project-back">
         <div class="container">
             <div id="project-back-box">
                 <div class="row">
                     <div class="col-md-8">
-                        <div class="card border-success mt-3">
 
-                            <?php  ?>
+
+
+                        <?php
+                        if( !empty($_SESSION['user_logged_in']) ){ // User is logged in?>
+
+                        <div class="card border-success mt-3">
                             <div class="card-header">
                                 <h4>Post New Artwork</h4>
                             </div><!-- .card border-->
@@ -38,10 +43,14 @@
                             </div><!-- .card-body-->
                         </div><!-- .card -->
 
+                    <?php } ?>
+
 
                         <?php
                         $p = new Project;
                         $projects = $p->get_all();
+
+
 
                         foreach($projects as $project){
 
@@ -93,7 +102,7 @@
                                     <div class="list-group-item">
                                         <form action="/projects/index.php" method="get">
                                             <div class="form-group material-project-form-group">
-                                                <input type="text" name="search">
+                                                <input class="text-change" type="text" name="search">
                                             </div>
                                             <input class="btn material-project-btn" type="submit" value="Submit">
 

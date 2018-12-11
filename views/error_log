@@ -6,3 +6,5 @@
 [30-Nov-2018 20:43:55 UTC] PHP Fatal error:  require_once(): Failed opening required '../../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/expostempolanik/public_html/views/signup.php on line 1
 [05-Dec-2018 18:52:38 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/expostempolanik/public_html/views/index.php on line 54
 [05-Dec-2018 19:24:32 UTC] PHP Parse error:  syntax error, unexpected 'only' (T_STRING) in /home/expostempolanik/public_html/views/index.php on line 52
+[07-Dec-2018 19:29:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/expostempolanik/public_html/views/index.php on line 55
+[07-Dec-2018 19:29:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/expostempolanik/public_html/views/index.php on line 55

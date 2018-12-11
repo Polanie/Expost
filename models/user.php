@@ -18,11 +18,10 @@ class User extends Db {
     function add(){
         $username = trim($this->data['username']);
         $password = password_hash(trim($_POST['password']), PASSWORD_DEFAULT);
-
-        $sql = "INSERT INTO users (username, password) VALUES ('$username', '$password')";
-
+        $sql = "INSERT INTO users (username, password, timezone) VALUES ('$username', '$password','$timezone')";
         $user_id = $this->execute_return_id($sql);
         return $user_id;
+        $timezone = trim($this->data['timezone']);
 
     }
 
@@ -63,15 +62,15 @@ class User extends Db {
             $firstname = trim($this->data['firstname']);
             $lastname = trim($this->data['lastname']);
             $bio = trim($this->data['bio']);
+            $timezone = trim($this->data['timezone']);
 
 
             if( !empty(trim($_POST['password'])) ){ //New Password entered
 
-                $sql = "UPDATE users SET username='$username', password='$password', firstname='$firstname', lastname='$lastname', bio='$bio'
-                WHERE id='$id'";
+                $sql = "UPDATE users SET username='$username', password='$password', firstname='$firstname', lastname='$lastname', bio='$bio', timezone='$timezone' WHERE id='$id'";
 
             }else{//No new password entered
-                $sql = "UPDATE users SET username='$username', firstname='$firstname', lastname='$lastname', bio='$bio'
+                $sql = "UPDATE users SET username='$username', firstname='$firstname', lastname='$lastname', bio='$bio', timezone='$timezone'
                 WHERE id='$id'";
             }
 

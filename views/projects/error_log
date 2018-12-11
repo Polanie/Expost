@@ -24,3 +24,7 @@ Stack trace:
 [04-Dec-2018 18:17:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/expostempolanik/public_html/core/util.php:48) in /home/expostempolanik/public_html/views/projects/add.php on line 13
 [04-Dec-2018 18:43:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/expostempolanik/public_html/core/util.php:48) in /home/expostempolanik/public_html/views/projects/add.php on line 13
 [05-Dec-2018 20:33:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/expostempolanik/public_html/views/projects/index.php on line 19
+[07-Dec-2018 17:51:00 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/expostempolanik/public_html/views/projects/index.php on line 17
+[07-Dec-2018 19:02:33 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /home/expostempolanik/public_html/views/projects/index.php on line 18
+[07-Dec-2018 19:25:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/expostempolanik/public_html/views/projects/index.php on line 124
+[07-Dec-2018 19:46:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/expostempolanik/public_html/views/projects/index.php on line 124

@@ -18,7 +18,7 @@
                                 <h2>Welcome Back!</h2>
                                     <form action="/users/login.php" method="post">
                                        <div class="form-group material-form-group">
-                                           <input class="form-control material-type" type="text-white" name="username" required>
+                                           <input class="form-control material-type" type class="text-sign" name="username" required>
                                            <label>Username</label>
                                        </div>
                                        <div class="form-group material-form-group">

@@ -12,11 +12,13 @@ class Project extends Db{
             $search = $this->params['search'];
 
 
-            $sql = "SELECT projects.*, users.username, users.firstname, users.lastname FROM projects LEFT JOIN users ON projects.user_id = users.id WHERE projects.title LIKE '%$search%' OR projects.description LIKE '%$search%' OR CONCAT(users.firstname,' ',users.lastname) LIKE '%$search%'  ORDER BY projects.id DESC";
-        
+            $sql = "SELECT projects.*, users.username, users.firstname, users.lastname FROM projects LEFT JOIN users ON projects.user_id = users.id WHERE projects.title LIKE '%$search%' OR projects.description LIKE '%$search%' OR CONCAT(users.firstname,' ',users.lastname) LIKE '%$search%'  ORDER BY projects.posted_time DESC";
+
 
         }else{//They are not searching
-            $sql = "SELECT projects.*, users.username, users.firstname, users.lastname FROM projects LEFT JOIN users ON projects.user_id = users.id ORDER BY projects.id DESC";
+            $sql = "SELECT projects.*, users.username, users.firstname, users.lastname FROM projects LEFT JOIN users ON projects.user_id = users.id ORDER BY projects.posted_time DESC";
+
+        
 
         }
 
@@ -34,7 +36,8 @@ class Project extends Db{
          $user_id = (int)$_SESSION['user_logged_in'];
          $util = new Util;
          $filename = $util->file_upload();
-         $sql = "INSERT INTO projects (title, description, filename, user_id) VALUES ('$title', '$description', '$filename', '$user_id')";
+         $current_time = time();
+         $sql = "INSERT INTO projects (title, description, filename, user_id, posted_time) VALUES ('$title', '$description', '$filename', '$user_id','$current_time')";
          $this->execute($sql);
 
     }

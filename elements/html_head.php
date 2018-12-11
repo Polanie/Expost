@@ -6,6 +6,7 @@
         <title><?=$title?></title>
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css"> <!-- Bootstrap v4.0.0 -->
         <link rel="stylesheet" href="/assets/css/all.min.css"> <!-- Font Awesome v5.0.13 -->
+        <link rel="stylesheet" href="/assets/css/chosen.min.css">
         <link rel="stylesheet" href="/assets/css/style.css?v=1.0.0<?=time()?>">
     </head>
     <body>
